@@ -387,6 +387,19 @@
     .carousel-caption-content {
     width: 95% !important;
   }
+
+  /* Smaller carousel caption text for small screens */
+  .header-carousel .carousel-caption-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .header-carousel .carousel-caption-content h5 {
+    font-size: 1.2rem;
+  }
+
+  .header-carousel .carousel-caption-content p {
+    font-size: 1rem;
+  }
 }
 
 .header-carousel .header-carousel-item,
@@ -1203,6 +1216,12 @@
 /* حجم أصغر للموبايل */
 @media (max-width: 991.98px) {
   .navbar-logo {
-    height: 45px;
+    height: 39px;
   }
+}
+
+/* Prevent horizontal scroll when elements overflow the viewport */
+html,
+body {
+  overflow-x: hidden;
 }
