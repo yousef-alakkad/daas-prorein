@@ -426,7 +426,7 @@ progress {
   }
 }
 .display-2 {
-  font-size: calc(1.575rem + 3.9vw);
+  font-size: calc(1.575rem + 2vw);
   font-weight: 600;
   line-height: 1.2;
 }
@@ -436,7 +436,7 @@ progress {
   }
 }
 .display-3 {
-  font-size: calc(1.525rem + 3.3vw);
+  font-size: 22px;
   font-weight: 600;
   line-height: 1.2;
 }
